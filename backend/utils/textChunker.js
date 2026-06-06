@@ -25,7 +25,7 @@ export const chunkText = (text, chunkSize = 500, overlap = 50) => {
 
   const chunks = [];
   let currentChunk = [];
-  let currentWordCount = [];
+  let currentWordCount = 0;
   let chunkIndex = 0;
 
   for (const paragraph of paraghraphs) {
