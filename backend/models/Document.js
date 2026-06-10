@@ -34,7 +34,7 @@ const documentSchema = new mongoose.Schema({
         },
         pageNumber: {
             type: Number,
-            required: true,
+            // required: true,
         }
     }],
     uploadDate: {
